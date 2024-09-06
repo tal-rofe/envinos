@@ -7,6 +7,7 @@ import { generateEnvFile } from './utils/generate-env-file.js';
 import { LoggerService } from './services/logger.js';
 
 const clientConfiguration = await readConfiguration();
+
 const secretManagerClient = new SecretsManagerClient({ region: clientConfiguration.region });
 
 await Promise.all(
