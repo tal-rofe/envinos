@@ -24,6 +24,10 @@ Sync and share your local environment variables from AWS Secrets Manager service
 > [!NOTE]
 > Currently only support AWS Secrets Manager, but in the future, may support other external stores with dedicated plugins
 
+> [!IMPORTANT]
+> You must have the AWS CLI configured (logged in to AWS with your credentials)
+> Read here for the setup: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html
+
 ## Usage
 
 To use the package you first need to install it as dev dependency:
