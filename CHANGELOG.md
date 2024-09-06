@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/tal-rofe/envinos/compare/v1.0.3...v1.0.4) (2024-09-06)
+
+
+### Bug Fixes
+
+* 🐞 add all JS files to dist folder exposed ([087da3a](https://github.com/tal-rofe/envinos/commit/087da3a47fae655857c69298bb9ac3b059b51003))
+
 ## [1.0.3](https://github.com/tal-rofe/envinos/compare/v1.0.2...v1.0.3) (2024-09-06)
 
 
