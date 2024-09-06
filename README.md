@@ -26,8 +26,8 @@ Sync and share your local environment variables from AWS Secret Manager service 
 
 ## Authors
 
-<a href="https://github.com/tal-rofe/enversify/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tal-rofe/enversify" />
+<a href="https://github.com/tal-rofe">
+    <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/100444463?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" height="50" />
 </a>
 
 ## License
