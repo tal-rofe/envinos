@@ -40,7 +40,7 @@
 		"./schema.json"
 	],
 	"bin": {
-		"envinos": "./bin/envinos.js"
+		"envinos": "./bin/index.js"
 	},
 	"publishConfig": {
 		"access": "public"
