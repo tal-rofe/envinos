@@ -54,7 +54,6 @@
 		"git:config": "git config --local include.path ../.gitconfig",
 		"setdev": "run-p husky:install git:config",
 		"prepare": "is-ci || is-docker || pnpm setdev",
-		"postinstall": "envinos",
 		"build": "tsc --project ./tsconfig.build.json",
 		"prettier": "prettier --check **/*.{ts,js,cjs,json,yaml}",
 		"type-check": "tsc -p ./tsconfig.json",
