@@ -1,3 +1,5 @@
 {
-	"$schema": "./node_modules/knip/schema.json"
+	"$schema": "./node_modules/knip/schema.json",
+	"ignoreDependencies": ["commitizen", "v8-compile-cache"],
+	"ignore": ["czvinyl.config.ts", "inflint.config.ts", "release.config.cjs", "bin/*", "@types/**/*"]
 }

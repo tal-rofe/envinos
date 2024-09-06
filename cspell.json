@@ -1,0 +1,16 @@
+{
+	"language": "en",
+	"ignorePaths": [
+		"./pnpm-lock.yaml",
+		"./renovate.json",
+		"**/*/package.json",
+		"./.vscode",
+		"./CHANGELOG.md",
+		"./CODEOWNERS",
+		"./knip.json",
+		"./cspell.json",
+		"./lint-staged.config.cjs",
+		"./inflint.config.ts"
+	],
+	"words": ["enversify", "czvinyl", "rofe", "enversifyrc"]
+}

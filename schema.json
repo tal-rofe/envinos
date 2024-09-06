@@ -1,0 +1,26 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$ref": "#/definitions/enversify",
+	"title": "Enversify configuration for JSON",
+	"definitions": {
+		"enversify": {
+			"description": "Enversify Configuration Schema",
+			"type": "object",
+			"properties": {
+				"secrets": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": { "label": { "type": "string" }, "filePath": { "type": "string" }, "key": { "type": "string" } },
+						"required": ["filePath", "key"],
+						"additionalProperties": false
+					}
+				},
+				"skipKeyword": { "type": "string" },
+				"region": { "type": "string" }
+			},
+			"required": ["secrets"],
+			"additionalProperties": false
+		}
+	}
+}
