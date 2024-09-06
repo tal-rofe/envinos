@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/tal-rofe/envinos/compare/v1.0.4...v1.0.5) (2024-09-06)
+
+
+### Bug Fixes
+
+* 🐞 add docs ([7547059](https://github.com/tal-rofe/envinos/commit/7547059da62ad4a7fb38ffe72f95095be04b9ef7))
+
 ## [1.0.4](https://github.com/tal-rofe/envinos/compare/v1.0.3...v1.0.4) (2024-09-06)
 
 
