@@ -61,40 +61,23 @@ Configuration can be set in the following files (can be configured in home direc
 -   `skipKeyword` (**optional**): sometimes, you have some environment variables that should be configured per each developer and not shared. You can set an explicit keyword, so Envinos won't override the variables with this keyword. For example, if you set it to "TODO" and set the value of variable "MY_ENV" in AWS Secrets Manager with value of "TODO" - Envinos won't override this variable "MY_ENV" (which might have been configured manually by the developer).
 -   `region` (**optional**): A valid AWS region - where you store your secrets in the AWS Secrets Manager service. If you don't provide this field, Envinos will fail, **unless** you have `AWS_REGION` configured in the user environment variables.
 
-For nested keys, you can read their purpose and description in the JSONSchema.
+### Configuration Schema
 
-<details>
-  <summary><b>View JSONSchema of the configuration:</b></summary>
+You can get the schema with JSONSchema, TypeScript or JSDoc, in order to have auto-completions for your configuration file.
+
+**`import` statement (TypeScript & JSDoc):**
+
+```ts
+import type { EnvinosConfig } from 'envinos';
+```
+
+**`$schema` field (JSON):**
 
 ```json
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$ref": "#/definitions/envinos",
-	"definitions": {
-		"envinos": {
-			"description": "Envinos Configuration Schema",
-			"type": "object",
-			"properties": {
-				"secrets": {
-					"type": "array",
-					"items": {
-						"type": "object",
-						"properties": { "label": { "type": "string" }, "filePath": { "type": "string" }, "key": { "type": "string" } },
-						"required": ["filePath", "key"],
-						"additionalProperties": false
-					}
-				},
-				"skipKeyword": { "type": "string" },
-				"region": { "type": "string" }
-			},
-			"required": ["secrets"],
-			"additionalProperties": false
-		}
-	}
+	"$schema": "./node_modules/envinos/schema.json"
 }
 ```
-
-</details>
 
 ## Authors
 
