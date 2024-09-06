@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/tal-rofe/envinos/compare/v1.0.2...v1.0.3) (2024-09-06)
+
+
+### Bug Fixes
+
+* 🐞 change binary path to correct file ([43d00d8](https://github.com/tal-rofe/envinos/commit/43d00d8ab7d8fd2d2fe7a4e3e9b885b5d7ba5060))
+
 ## [1.0.2](https://github.com/tal-rofe/envinos/compare/v1.0.1...v1.0.2) (2024-09-06)
 
 
