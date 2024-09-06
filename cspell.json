@@ -12,5 +12,5 @@
 		"./lint-staged.config.cjs",
 		"./inflint.config.ts"
 	],
-	"words": ["enversify", "czvinyl", "rofe", "enversifyrc"]
+	"words": ["envinos", "czvinyl", "rofe", "envinosrc"]
 }

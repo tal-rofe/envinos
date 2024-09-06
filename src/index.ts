@@ -17,4 +17,4 @@ await Promise.all(
 	),
 );
 
-export type EnversifyConfig = z.infer<typeof configurationSchema>;
+export type EnvinosConfig = z.infer<typeof configurationSchema>;

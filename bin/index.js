@@ -18,7 +18,7 @@ async function onFatalError(error) {
 
 	console.error(`
 Something went wrong! :(
-Enversify: ${version}
+Envinos: ${version}
 ${message}`);
 }
 

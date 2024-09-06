@@ -42,7 +42,7 @@ export const readConfiguration = async () => {
 	}
 
 	if (!clientConfiguration.region && !process.env.AWS_REGION) {
-		LoggerService.error('AWS region must be configured via the Enversify configuration file, or from "AWS_REGION" environment variable');
+		LoggerService.error('AWS region must be configured via the Envinos configuration file, or from "AWS_REGION" environment variable');
 
 		process.exit(1);
 	} else if (!clientConfiguration.region) {

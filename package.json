@@ -1,5 +1,5 @@
 {
-	"name": "enversify",
+	"name": "envinos",
 	"version": "1.0.0",
 	"description": "Sync your local environment variables from external source shared among developers",
 	"author": "Tal Rofe <talrofe111@gmail.com> (https://github.com/tal-rofe)",
@@ -15,13 +15,13 @@
 			"email": "talrofe111@gmail.com"
 		}
 	],
-	"homepage": "https://github.com/tal-rofe/enversify#readme",
+	"homepage": "https://github.com/tal-rofe/envinos#readme",
 	"bugs": {
-		"url": "https://github.com/tal-rofe/enversify/issues"
+		"url": "https://github.com/tal-rofe/envinos/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tal-rofe/enversify.git"
+		"url": "git+https://github.com/tal-rofe/envinos.git"
 	},
 	"type": "module",
 	"exports": {
@@ -40,7 +40,7 @@
 		"./schema.json"
 	],
 	"bin": {
-		"enversify": "./bin/enversify.js"
+		"envinos": "./bin/envinos.js"
 	},
 	"publishConfig": {
 		"access": "public"

@@ -3,17 +3,17 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/tal-rofe/enversify">
-    	<img src="https://img.shields.io/github/actions/workflow/status/tal-rofe/enversify/integrate.yaml?label=CI&logo=GitHub" alt="CI status">
+	<a href="https://github.com/tal-rofe/envinos">
+    	<img src="https://img.shields.io/github/actions/workflow/status/tal-rofe/envinos/integrate.yaml?label=CI&logo=GitHub" alt="CI status">
   	</a>
-	<a href="https://www.npmjs.com/package/enversify">
-    	<img src="https://img.shields.io/npm/dm/enversify?logo=NPM" alt="npm downloads">
+	<a href="https://www.npmjs.com/package/envinos">
+    	<img src="https://img.shields.io/npm/dm/envinos?logo=NPM" alt="npm downloads">
   	</a>
-	<a href="https://github.com/tal-rofe/enversify">
-    	<img src="https://img.shields.io/npm/l/enversify" alt="npm license">
+	<a href="https://github.com/tal-rofe/envinos">
+    	<img src="https://img.shields.io/npm/l/envinos" alt="npm license">
   	</a>
-	<a href="https://github.com/tal-rofe/enversify">
-    	<img src="https://img.shields.io/npm/v/enversify?label=version" alt="version">
+	<a href="https://github.com/tal-rofe/envinos">
+    	<img src="https://img.shields.io/npm/v/envinos?label=version" alt="version">
   	</a>
 </p>
 
@@ -29,14 +29,14 @@ Sync and share your local environment variables from AWS Secrets Manager service
 To use the package you first need to install it as dev dependency:
 
 ```bash
-npm i -D enversify
+npm i -D envinos
 ```
 
 Then you need to configure your `package.json#scripts` with:
 
 ```json
 {
-	"postinstall": "enversify"
+	"postinstall": "envinos"
 }
 ```
 
@@ -44,19 +44,19 @@ This will automatically sync the environment variables from AWS Secrets Manager 
 
 ## Configuration
 
-You can specify the configuration of Enversify through various options, but one must be provided.
+You can specify the configuration of Envinos through various options, but one must be provided.
 Configuration can be set in the following files (can be configured in home directory or in the root folder of your project):
 
--   a `package.json` property: `"enversify": {...}` or in `~/package.json`, for example
--   a `.enversifyrc` file in JSON or YAML format
--   a `.enversifyrc.json`, `.enversifyrc.yaml`, `.enversifyrc.yml`, `.enversifyrc.js`, or `.enversifyrc.cjs` file
--   a `enversify.config.ts`, `enversify.config.js`, or `enversify.config.cjs` CommonJS module exporting an object
+-   a `package.json` property: `"envinos": {...}` or in `~/package.json`, for example
+-   a `.envinosrc` file in JSON or YAML format
+-   a `.envinosrc.json`, `.envinosrc.yaml`, `.envinosrc.yml`, `.envinosrc.js`, or `.envinosrc.cjs` file
+-   a `envinos.config.ts`, `envinos.config.js`, or `envinos.config.cjs` CommonJS module exporting an object
 
 ### Configuration Options
 
 -   Secrets (**required**): an array of objects, where you configure multiple environment variables files.
--   skipKeyword (**optional**): sometimes, you have some environment variables that should be configured per each developer and not shared. You can set an explicit keyword, so Enversify won't override the variables with this keyword. For example, if you set it to "TODO" and set the value of variable "MY_ENV" in AWS Secrets Manager with value of "TODO" - Enversify won't override this variable "MY_ENV" (which might have been configured manually by the developer).
--   region (**optional**): A valid AWS region - where you store your secrets in the AWS Secrets Manager service. If you don't provide this field, Enversify will fail, **unless** you have `AWS_REGION` configured in the user environment variables.
+-   skipKeyword (**optional**): sometimes, you have some environment variables that should be configured per each developer and not shared. You can set an explicit keyword, so Envinos won't override the variables with this keyword. For example, if you set it to "TODO" and set the value of variable "MY_ENV" in AWS Secrets Manager with value of "TODO" - Envinos won't override this variable "MY_ENV" (which might have been configured manually by the developer).
+-   region (**optional**): A valid AWS region - where you store your secrets in the AWS Secrets Manager service. If you don't provide this field, Envinos will fail, **unless** you have `AWS_REGION` configured in the user environment variables.
 
 <details>
   <summary><b>View JSONSchema of the configuration:</b></summary>
@@ -64,10 +64,10 @@ Configuration can be set in the following files (can be configured in home direc
 ```json
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$ref": "#/definitions/enversify",
+	"$ref": "#/definitions/envinos",
 	"definitions": {
-		"enversify": {
-			"description": "Enversify Configuration Schema",
+		"envinos": {
+			"description": "Envinos Configuration Schema",
 			"type": "object",
 			"properties": {
 				"secrets": {

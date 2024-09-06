@@ -1,6 +1,6 @@
 const config = {
 	branches: ['main'],
-	repositoryUrl: 'git+https://github.com/tal-rofe/enversify',
+	repositoryUrl: 'git+https://github.com/tal-rofe/envinos',
 	plugins: [
 		[
 			'@semantic-release/commit-analyzer',

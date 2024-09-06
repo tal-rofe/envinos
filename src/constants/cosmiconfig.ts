@@ -1,7 +1,7 @@
 import os from 'node:os';
 import path from 'node:path';
 
-export const CONFIGURATION_MODULE_NAME = 'enversify';
+export const CONFIGURATION_MODULE_NAME = 'envinos';
 
 export const CONFIGURATION_SEARCH_PLACES = [
 	'package.json',
