@@ -54,9 +54,14 @@ Configuration can be set in the following files (can be configured in home direc
 
 ### Configuration Options
 
--   Secrets (**required**): an array of objects, where you configure multiple environment variables files.
--   skipKeyword (**optional**): sometimes, you have some environment variables that should be configured per each developer and not shared. You can set an explicit keyword, so Envinos won't override the variables with this keyword. For example, if you set it to "TODO" and set the value of variable "MY_ENV" in AWS Secrets Manager with value of "TODO" - Envinos won't override this variable "MY_ENV" (which might have been configured manually by the developer).
--   region (**optional**): A valid AWS region - where you store your secrets in the AWS Secrets Manager service. If you don't provide this field, Envinos will fail, **unless** you have `AWS_REGION` configured in the user environment variables.
+-   `secrets` (**required**): an array of objects, where you configure multiple environment variables files.
+-   `secrets.*.label` (**optional**) - Label of the environment variables
+-   `secrets.*.key` (**required**) - The AWS Secrets Manager entry identifier, where the secrets will be fetched from
+-   `secrets.*.filePath` (**required**) - The file path where the environment variables will be stored
+-   `skipKeyword` (**optional**): sometimes, you have some environment variables that should be configured per each developer and not shared. You can set an explicit keyword, so Envinos won't override the variables with this keyword. For example, if you set it to "TODO" and set the value of variable "MY_ENV" in AWS Secrets Manager with value of "TODO" - Envinos won't override this variable "MY_ENV" (which might have been configured manually by the developer).
+-   `region` (**optional**): A valid AWS region - where you store your secrets in the AWS Secrets Manager service. If you don't provide this field, Envinos will fail, **unless** you have `AWS_REGION` configured in the user environment variables.
+
+For nested keys, you can read their purpose and description in the JSONSchema.
 
 <details>
   <summary><b>View JSONSchema of the configuration:</b></summary>

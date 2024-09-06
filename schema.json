@@ -11,13 +11,24 @@
 					"type": "array",
 					"items": {
 						"type": "object",
-						"properties": { "label": { "type": "string" }, "filePath": { "type": "string" }, "key": { "type": "string" } },
+						"properties": {
+							"label": { "type": "string", "description": "Label of the environment variables" },
+							"filePath": { "type": "string", "description": "The file path where the environment variables will be stored" },
+							"key": {
+								"type": "string",
+								"description": "The AWS Secrets Manager entry identifier, where the secrets will be fetched from"
+							}
+						},
 						"required": ["filePath", "key"],
 						"additionalProperties": false
-					}
+					},
+					"description": "The secrets configuration for environment variables files generation"
 				},
-				"skipKeyword": { "type": "string" },
-				"region": { "type": "string" }
+				"skipKeyword": {
+					"type": "string",
+					"description": "Skip explicit keyword so Envinos won't override environment variables keys with this value"
+				},
+				"region": { "type": "string", "description": "The AWS region for the Secrets Manager service" }
 			},
 			"required": ["secrets"],
 			"additionalProperties": false
