@@ -68,7 +68,7 @@
 		"@types/json-diff": "1.0.3",
 		"@types/node": "22.5.5",
 		"commitizen": "4.3.0",
-		"cspell": "8.14.2",
+		"cspell": "8.14.3",
 		"cz-vinyl": "2.5.1",
 		"husky": "9.1.6",
 		"is-ci": "3.0.1",
