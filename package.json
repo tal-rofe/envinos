@@ -69,7 +69,7 @@
 		"@types/node": "22.7.0",
 		"commitizen": "4.3.0",
 		"cspell": "8.14.4",
-		"cz-vinyl": "2.5.1",
+		"cz-vinyl": "2.5.2",
 		"husky": "9.1.6",
 		"is-ci": "3.0.1",
 		"is-docker": "3.0.0",
