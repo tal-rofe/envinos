@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/tal-rofe/envinos/compare/v1.0.5...v1.0.6) (2024-10-25)
+
+
+### Bug Fixes
+
+* 🐞 add TS badge to NPM page ([e417d7b](https://github.com/tal-rofe/envinos/commit/e417d7be0c01bdcbb7d936b563d1f373662fbf65))
+
 ## [1.0.5](https://github.com/tal-rofe/envinos/compare/v1.0.4...v1.0.5) (2024-09-06)
 
 
