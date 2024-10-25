@@ -24,6 +24,7 @@
 		"url": "git+https://github.com/tal-rofe/envinos.git"
 	},
 	"type": "module",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		"./package.json": "./package.json",
 		".": {
