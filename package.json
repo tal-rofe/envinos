@@ -63,7 +63,7 @@
 		"cspell": "cspell lint -c ./cspell.json --gitignore --no-progress --no-summary **"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "19.5.0",
+		"@commitlint/cli": "19.6.0",
 		"@exlint.io/inflint": "2.1.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/json-diff": "1.0.3",
