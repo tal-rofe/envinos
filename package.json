@@ -78,7 +78,7 @@
 		"lint-staged": "15.3.0",
 		"npm-run-all2": "7.0.2",
 		"prettier": "3.4.2",
-		"typescript": "5.7.2"
+		"typescript": "5.7.3"
 	},
 	"dependencies": {
 		"@aws-sdk/client-secrets-manager": "3.723.0",
