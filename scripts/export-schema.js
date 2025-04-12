@@ -7,7 +7,7 @@ import { z } from "zod";
 const schemaPath = path.join(process.cwd(), 'src', 'schemas', 'configuration.ts');
 const schemaModule = await tsImportLoad(schemaPath, { useCache: false });
 const zodSchema = schemaModule.configurationSchema;
-const jsonSchema = z.toJSONSchema(zodSchema);
+const jsonSchema = z.toJSONSchema(zodSchema, { target: "draft-7" });
 
 const fullJsonSchema = {
 	"$schema": "http://json-schema.org/draft-07/schema#",
