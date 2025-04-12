@@ -1,3 +1,5 @@
+import os from 'node:os';
+
 import type { ZodIssue } from 'zod';
 
 export const formatSchemaError = (issues: ZodIssue[]) => {
@@ -8,5 +10,5 @@ export const formatSchemaError = (issues: ZodIssue[]) => {
 
 			return configurationFieldErrorMessage;
 		})
-		.join('\n');
+		.join(os.EOL);
 };
