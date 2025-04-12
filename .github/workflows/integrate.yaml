@@ -19,7 +19,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
-            - uses: pnpm/action-setup@v3
+            - uses: pnpm/action-setup@v4
               with:
                   run_install: true
 
@@ -37,7 +37,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
-            - uses: pnpm/action-setup@v3
+            - uses: pnpm/action-setup@v4
               with:
                   run_install: true
 
@@ -55,7 +55,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
-            - uses: pnpm/action-setup@v3
+            - uses: pnpm/action-setup@v4
               with:
                   run_install: true
 
@@ -73,7 +73,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
-            - uses: pnpm/action-setup@v3
+            - uses: pnpm/action-setup@v4
               with:
                   run_install: true
 
@@ -91,7 +91,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
-            - uses: pnpm/action-setup@v3
+            - uses: pnpm/action-setup@v4
               with:
                   run_install: true
 
@@ -109,7 +109,7 @@ jobs:
               with:
                   node-version-file: '.nvmrc'
 
-            - uses: pnpm/action-setup@v3
+            - uses: pnpm/action-setup@v4
               with:
                   run_install: true
 
