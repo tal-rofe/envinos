@@ -1,4 +1,0 @@
-{
-	"language": "en",
-	"ignorePaths": ["renovate.json", "pnpm-lock.yaml", "package.json", "lint-staged.config.cjs", "knip.json", "czvinyl.config.ts", "cspell.json"]
-}
