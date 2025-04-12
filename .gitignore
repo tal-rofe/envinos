@@ -1,4 +1,6 @@
-node_modules
+node_modules/
 tsconfig.tsbuildinfo
-dist
+dist/
 tsconfig.build.tsbuildinfo
+schema.json
+.cache/

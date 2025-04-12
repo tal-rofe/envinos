@@ -55,7 +55,7 @@
 		"git:config": "git config --local include.path ../.gitconfig",
 		"setdev": "run-p husky:install git:config",
 		"prepare": "is-ci || is-docker || pnpm setdev",
-		"build": "tsc --project ./tsconfig.build.json",
+		"build": "node scripts/export-schema.js && tsc --project ./tsconfig.build.json",
 		"prettier": "prettier --check **/*.{ts,js,cjs,json,yaml}",
 		"type-check": "tsc -p ./tsconfig.json",
 		"inflint": "inflint -c ./inflint.config.ts",
@@ -78,6 +78,7 @@
 		"lint-staged": "15.5.0",
 		"npm-run-all2": "7.0.2",
 		"prettier": "3.5.3",
+		"ts-import": "5.0.0-beta.1",
 		"typescript": "5.8.3"
 	},
 	"dependencies": {
@@ -90,6 +91,6 @@
 		"fs-extra": "11.3.0",
 		"json-diff": "1.0.6",
 		"v8-compile-cache": "2.4.0",
-		"zod": "3.24.2"
+		"zod": "4.0.0-beta.20250412T085909"
 	}
 }
