@@ -36,8 +36,8 @@ importers:
         specifier: 2.4.0
         version: 2.4.0
       zod:
-        specifier: 4.0.0-beta.20250417T043022
-        version: 4.0.0-beta.20250417T043022
+        specifier: 4.0.0-beta.20250418T073619
+        version: 4.0.0-beta.20250418T073619
     devDependencies:
       '@commitlint/cli':
         specifier: 19.8.0
@@ -730,8 +730,8 @@ packages:
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
 
-  '@zod/core@0.6.2':
-    resolution: {integrity: sha512-KdH7bT0BRG1CvJ1LWH8oyNnkvLpjVZ5qVGpRu7Vq8WsFTKRDWfdr3rFfBYh8atZJSWDgD0ibhOyff1AyRvG1DA==}
+  '@zod/core@0.7.1':
+    resolution: {integrity: sha512-5mV2cmDlJyKNlRGinyg2Lgn4m3CvNItWW8BcolrEvekfQP/y+2G1udVFnRBGJt4QqSHVADGyzxm3bBffPGGf+g==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -2154,8 +2154,8 @@ packages:
   zod@3.24.2:
     resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
-  zod@4.0.0-beta.20250417T043022:
-    resolution: {integrity: sha512-zjfYudLXPgHvRdCWzy/iJqhB6suE8tBqnGubbFHSkMvcknI4iexEP53QCO13FoC/EIALseuZReVykCY8yd/skA==}
+  zod@4.0.0-beta.20250418T073619:
+    resolution: {integrity: sha512-IdLjh8m+/vaSdPbRbQHGV8ei6EgFhCIhaPNwkFlv/KoCG2dMRmysmgXO7oHWKMxk3RVoQhtMANFP2H6d5MMflg==}
 
 snapshots:
 
@@ -3204,7 +3204,7 @@ snapshots:
 
   '@types/uuid@9.0.8': {}
 
-  '@zod/core@0.6.2': {}
+  '@zod/core@0.7.1': {}
 
   JSONStream@1.3.5:
     dependencies:
@@ -4589,6 +4589,6 @@ snapshots:
 
   zod@3.24.2: {}
 
-  zod@4.0.0-beta.20250417T043022:
+  zod@4.0.0-beta.20250418T073619:
     dependencies:
-      '@zod/core': 0.6.2
+      '@zod/core': 0.7.1
