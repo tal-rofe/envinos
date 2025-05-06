@@ -82,7 +82,7 @@
 		"typescript": "5.8.3"
 	},
 	"dependencies": {
-		"@aws-sdk/client-secrets-manager": "3.798.0",
+		"@aws-sdk/client-secrets-manager": "3.799.0",
 		"chalk": "5.4.1",
 		"cosmiconfig": "9.0.0",
 		"cosmiconfig-typescript-loader": "6.1.0",
