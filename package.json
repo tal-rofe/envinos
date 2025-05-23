@@ -76,7 +76,7 @@
 		"is-docker": "3.0.0",
 		"knip": "5.56.0",
 		"lint-staged": "15.5.2",
-		"npm-run-all2": "8.0.1",
+		"npm-run-all2": "8.0.2",
 		"prettier": "3.5.3",
 		"ts-import": "5.0.0-beta.1",
 		"typescript": "5.8.3"
