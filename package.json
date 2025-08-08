@@ -79,7 +79,7 @@
 		"npm-run-all2": "8.0.4",
 		"prettier": "3.6.2",
 		"ts-import": "5.0.0-beta.1",
-		"typescript": "5.8.3"
+		"typescript": "5.9.2"
 	},
 	"dependencies": {
 		"@aws-sdk/client-secrets-manager": "3.858.0",
