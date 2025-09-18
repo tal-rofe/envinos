@@ -36,8 +36,8 @@ importers:
         specifier: 2.4.0
         version: 2.4.0
       zod:
-        specifier: 4.1.5
-        version: 4.1.5
+        specifier: 4.1.7
+        version: 4.1.7
     devDependencies:
       '@commitlint/cli':
         specifier: 19.8.1
@@ -2254,8 +2254,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.1.5:
-    resolution: {integrity: sha512-rcUUZqlLJgBC33IT3PNMgsCq6TzLQEG/Ei/KTCU0PedSWRMAXoOUN+4t/0H+Q8bdnLPdqUYnvboJT0bn/229qg==}
+  zod@4.1.7:
+    resolution: {integrity: sha512-6qi6UYyzAl7W9uV29KvcSFXqK4QCYNYUz2YASPNBWpJE1RY6R1nArmmFPgGY/CBYWzpeMw3EOER+DR9a05O4IA==}
 
 snapshots:
 
@@ -4796,4 +4796,4 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zod@4.1.5: {}
+  zod@4.1.7: {}
