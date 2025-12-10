@@ -82,8 +82,8 @@ importers:
         specifier: 8.0.4
         version: 8.0.4
       prettier:
-        specifier: 3.7.3
-        version: 3.7.3
+        specifier: 3.7.4
+        version: 3.7.4
       ts-import:
         specifier: 5.0.0-beta.1
         version: 5.0.0-beta.1(typescript@5.9.3)
@@ -1909,8 +1909,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  prettier@3.7.3:
-    resolution: {integrity: sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==}
+  prettier@3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4512,7 +4512,7 @@ snapshots:
 
   pidtree@0.6.0: {}
 
-  prettier@3.7.3: {}
+  prettier@3.7.4: {}
 
   queue-microtask@1.2.3: {}
 
