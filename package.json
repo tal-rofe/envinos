@@ -77,7 +77,7 @@
 		"knip": "5.71.0",
 		"lint-staged": "15.5.2",
 		"npm-run-all2": "8.0.4",
-		"prettier": "3.7.3",
+		"prettier": "3.7.4",
 		"ts-import": "5.0.0-beta.1",
 		"typescript": "5.9.3"
 	},
