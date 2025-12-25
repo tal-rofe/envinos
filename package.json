@@ -88,7 +88,7 @@
 		"cosmiconfig-typescript-loader": "6.2.0",
 		"dotenv": "16.6.1",
 		"figures": "6.1.0",
-		"fs-extra": "11.3.2",
+		"fs-extra": "11.3.3",
 		"json-diff": "1.0.6",
 		"v8-compile-cache": "2.4.0",
 		"zod": "4.2.1"
