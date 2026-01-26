@@ -75,7 +75,7 @@
 		"is-ci": "4.1.0",
 		"is-docker": "3.0.0",
 		"knip": "5.82.1",
-		"lint-staged": "15.5.2",
+		"lint-staged": "16.2.7",
 		"npm-run-all2": "8.0.4",
 		"prettier": "3.8.0",
 		"ts-import": "5.0.0-beta.1",
