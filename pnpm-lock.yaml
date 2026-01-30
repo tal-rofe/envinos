@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-secrets-manager':
-        specifier: 3.974.0
-        version: 3.974.0
+        specifier: 3.975.0
+        version: 3.975.0
       chalk:
         specifier: 5.6.2
         version: 5.6.2
@@ -106,8 +106,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-secrets-manager@3.974.0':
-    resolution: {integrity: sha512-YLCnCZjK6fX8OMbJEVuQePoYLlm/3SloSN1NtysTZ7vo9GIkaFBKEapkud4rUJika9eDAyjVkhgvxRdEPjhKUw==}
+  '@aws-sdk/client-secrets-manager@3.975.0':
+    resolution: {integrity: sha512-KY67ghh2BBBhfaCvOquazOWWTe8CEaEsKOFtNVtECIttRlmm1YAuIDUTk7reaQhTqb+wwuS2xoGsu5z1FZkFyA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/client-sso@3.975.0':
@@ -2281,7 +2281,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.7.0
 
-  '@aws-sdk/client-secrets-manager@3.974.0':
+  '@aws-sdk/client-secrets-manager@3.975.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
